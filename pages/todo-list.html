@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/images/fevicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Learn with us</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- internal css link  -->
+    <link rel="stylesheet" href="/css/home.css">
+    <!-- uikit link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
+    <!-- boxicon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- font  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="expose-nav">
+        <div class="container">
+            <div class="expose-head d-flex justify-content-between">
+                <h1>Todo -list</h1>
+                <button class="btn" type="button" uk-toggle="target: #offcanvas-overlay"><i
+                        class='bx bxs-user-circle'></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="offcanvas-overlay" uk-offcanvas="overlay: true" class="slide-nav">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <h3>Todo-list</h3>
+            <span>This is a type of Commercial website</span> <br> <br>
+            <span>language used:- html-5 , css-3 ,java-script ,bootstrap-5, jQuery</span> <br> <br>
+
+            <span>This website is made by Rajan</span> <br> <br>
+            <span>we provide you all the content that help to learn code</span> <br> <br>
+            <span>Follow Us</span>
+            <ul class="d-flex">
+                <li><i class='bx bxl-facebook-circle'></i></li>
+                <li><i class='bx bxl-twitter'></i></li>
+                <li><i class='bx bxl-linkedin'></i></li>
+                <li><i class='bx bxl-instagram-alt'></i></li>
+                <li><i class='bx bxl-whatsapp'></i></li>
+                <li><i class='bx bxl-github'></i></li>
+            </ul>
+        </div>
+    </div>
+    <h1 class="text-center head-h1">OverView of Project</h1>
+    <div class="img-slider mt-5">
+        <div class="container">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                uk-slider="clsActivated: uk-transition-active; center: true">
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="/images/todo app/1.png" width="1800" height="1200" alt="" class="img-fluid">
+                            <div
+                                class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">Home page</h3>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
+            </div>
+        </div>
+    </div>
+     <div class="container step py-5">
+         <h1>Follow these step</h1>
+         <ol>
+           <li>Use vs Code for better Expercience</li>
+           <li>After pasting the code on vs-code use  {sift + alt + F} or right click on mouse and select format document</li>
+           <li>Code is on there readable format</li>
+           <li>In these project we are using Html-5, css-3 ,java script</li>
+           <li>Paste this all extension in your page</li>
+           <li>For more visit my gitHub account link given below</li>
+         </ol>
+     </div>
+    
+
+
+    <div class="container d-flex justify-content-between mt-5">
+        <h1 class="html-h1">HTML</h1>
+        <button onclick="copyToClipboard('#p1')" class="copybtn btn">copy</button>
+    </div>
+    <div class="html-code">
+        <xmp id="p1" class="xmp">
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="stylesheet" href="todoapp.css">
+            </head>
+            <body>
+                <h1>TODO APP✍</h1>
+                <input type="text" placeholder="TODO LIST" class="text">
+                <ul id="list"></ul>
+                <!-- <button class="button">Add</button>
+                 -->
+                <script src="todoapp.js"></script>
+            </body>
+            </html>
+        </xmp>
+    </div>
+
+    <div class="container d-flex justify-content-between mt-5">
+        <h1 class="html-h1">CSS</h1>
+        <button onclick="copyToClipboard('#p2')" class="copybtn btn">copy</button>
+    </div>
+    <div class="html-code conatiner">
+        <xmp class="xmp" id="p2">
+            body{
+                background-color: rgb(172, 174, 175);
+               align-content: center;
+               margin: 0 auto;
+            }
+            h1{
+            font-size:70px;
+            font-family: sans-serif;
+            color: darkred;
+            text-align: center;
+            text-shadow:5px 4px darksalmon;
+            }
+            input{
+                margin-left:200px;
+                width: 1000px;
+                height: 60px;
+                background-color: rgb(4, 194, 153);
+                font-family:cursive ;
+                font: size 400px;
+                border: 5px solid  blueviolet;
+                font-size: 50px;
+                /* text-shadow: 5px 6px 4px 6px blueviolet red; */
+            }
+            /* .button{
+                width: 100px;
+                height: 60px;
+                background-color: rgb(15, 110, 110);
+                font-family:cursive ;
+                font-size: xx-large;
+            
+            } */
+            li{
+                font-size:40px;
+                font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(11, 11, 12);
+                margin-left:200px;
+                list-style-type:decimal;
+                font-weight: bold;
+            }
+            li:hover{
+                
+                color: rgb(207, 25, 25);
+            }
+        </xmp>
+    </div>
+    <div class="container d-flex justify-content-between mt-5">
+        <h1 class="html-h1">JAVA SCRIPT</h1>
+        <button onclick="copyToClipboard('#p3')" class="copybtn btn">copy</button>
+    </div>
+    <div class="html-code conatiner">
+        <xmp class="xmp" id="p3">
+            <script>
+let inputitem=document.querySelector(".text");
+inputitem.onkeyup=function(e){
+if(e.keyCode===13){          //13 is come from browser console
+    if(inputitem.value){    //this line is only for not addd empty notes;
+        additem();          //function call
+    }
+    };
+function additem(item){    //function declare
+    let ul=document.querySelector("#list");
+    let li=document.createElement("li");
+
+    //for creating new net in li
+    
+    let textnote=document.createTextNode(inputitem.value);
+    li.appendChild(textnote);
+    ul.appendChild(li);
+    inputitem.value="";    //used to remove item when lsit is add;
+    li.onclick=function(e){
+        e.target.remove();          //used to remove the value;
+    }
+};
+}
+        </script>
+        </xmp>
+    </div>
+
+    <a href="https://github.com/Rajansingh1801/to-do-app" class="btn gitbtn my-5 text-center d-table">Click to get code on gitHub</a>
+  
+    <section class="comment-box">
+        <div class="container">
+            <div class="wrapper">
+                <div class="commentBoxfloat">
+                    <form id="cmnt">
+                        <fieldset>
+                            <div class="form_grp">
+                                <textarea id="userCmnt" placeholder="Write your comment here. "></textarea>
+                            </div>
+                            <div class="form_grp">
+                                <button type="button" id="submit">Submit</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="cmntContr"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 m-auto">
+                <h2>CodeHeap</h2>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li> <a href="/pages/home-page.html">Home</a></li>
+                    <li>Contact us</li>
+                    <li>About us </li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Follow us</h2>
+                <ul class="d-flex justify-content-around">
+                    <li><i class='bx bxl-facebook-circle'></i></li>
+                    <li><i class='bx bxl-twitter'></i></li>
+                    <li><i class='bx bxl-linkedin'></i></li>
+                    <li><i class='bx bxl-instagram-alt'></i></li>
+                    <li><i class='bx bxl-whatsapp'></i></li>
+                    <li><i class='bx bxl-github'></i></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ui kit js  -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        // UIkit.slideshow(element).startAutoplay();
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+        $(".copybtn").click(function(){
+            alert("Sucessfully copy");
+        })
+        $(function () {
+            var inDexValue;
+
+            $('button').click(function () {
+                if ($('#userCmnt').val().length == '') {
+                    alert('Please Enter Your Comment');
+                    return true;
+                }
+                var userCmnt = $('#userCmnt').val();
+                if ($('#submit').hasClass('editNow')) {
+
+                    $('#cmntContr>div.viewCmnt').eq(inDexValue).children('p').html(userCmnt);
+
+                } else {
+
+                    $('#cmntContr').append("<div class='viewCmnt'><p>" + userCmnt + "</p><span class='edit'></span><span class='delete'></span></div>");
+                }
+                $('#userCmnt').val('');
+                $(this).removeClass('editNow');
+            });
+
+            // Delete 
+            $('#cmntContr').on('click', '.delete', function () {
+                confirm("Delete Coformation");
+                $(this).parent().remove();
+            });
+            // Edit
+            $('#cmntContr').on('click', '.edit', function () {
+
+                var toEdit = $(this).prev('p').html();
+                //alert(toEdit);
+                $('#userCmnt').val(toEdit);
+                $('button').addClass('editNow');
+                inDexValue = $(this).parent('div.viewCmnt').index();
+
+            });
+        });
+    </script>
+</body>
+
+</html>

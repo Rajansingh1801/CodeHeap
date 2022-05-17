@@ -1,0 +1,102 @@
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Permanent Marker', cursive; */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    overflow-y: hidden;
+}
+
+.loaders {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.loaders:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: loader-anim 5s infinite;
+}
+
+@keyframes loader-anim {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+
+video {
+    height: 70% !important;
+}
+
+.header .cont {
+    position: absolute;
+    margin: auto;
+    top: 60%;
+    transform: translate(50%, -50%);
+
+}
+
+.header h1 {
+    background-image: url('/images/bg.webp');
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    /* color: white; */
+    font-size: 7rem;
+    font-family: cursive;
+    font-weight: 900;
+    /* transform: translate(50%, -50%); */
+}
+
+.header a {
+    padding: 15px 40px !important;
+    background-color: khaki;
+    color: black;
+    /* transform: translate(180%, 15%); */
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    border: 3px solid khaki;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.btn {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: brown;
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{background-color: khaki !important;}
+.navbar .navbar-brand{font-family:'Permanent Marker', cursive; font-weight: 700; font-size: 2rem; color: teal;}
+.navbar .navbar-nav li a{font-family: 'Times New Roman', Times, serif; font-size: 1.5rem; color: black; text-decoration: none; text-transform: capitalize; font-weight: 600;}
+.navbar .navbar-nav li{margin-right: 15px;}
+
+.web h1{font-size: 3rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black; font-weight: 600; margin: auto; margin-bottom: 20px;}
+.web .row .col-cont{background-color: rgb(241, 239, 239); padding: 15px; }
+.web .row .col-cont .content{ background-color:white; border: 2px solid black; padding: 20px 10px;}
+.web .row .col-cont .content .btn{padding: 10px 20px; background-color: aqua; font-family: cursive; font-weight: 600; color: black; border: 4px solid brown; text-align: center;}
+.web .row .col-cont .content .btn:hover{text-decoration: none; color: brown; border: 4px solid aqua; background-color:white;}
+.web .row .col-cont .content h2{font-family:  'Permanent Marker', cursive; font-weight: 600; color: brown; font-size: 2rem; }
+.web .row .col-cont .content:hover{box-shadow: -1px 4px 2px 10px rgba(64, 65, 64, 0.31); transition: 1s;}
+.web .row .col-cont .content:hover img{transform: scale(1.05); transition: ease-in-out 500ms; }
+
+/* expose  */
+.expose-nav{background-color: cornsilk;}
+.expose-nav h1{font-family: 'Permanent Marker', cursive; font-size: 3rem; color: tomato; font-weight: 600; } 
+.expose-nav button{padding: 1px 20px !important; background-color: khaki; font-size: 3rem; font-family: 'Courier New', Courier, monospace; font-weight: 500;}
+.slide-nav ul{list-style: none;}
+.slide-nav ul li{margin: 4px; font-size: 1.5rem;}
+
+.uk-slideshow-items{margin-right: 100px;}
+.uk-icon>* {
+    transform: translate(0,0);
+    color: blue;
+    font-weight: 900;
+}
+.html-code{height:600px; width:85%; overflow-x: scroll; overflow-y: scroll; scroll-behavior: smooth; scroll-margin: auto; margin: auto; background-color: antiquewhite;}
+.xmp{background-color: antiquewhite;}
+.copybtn{padding: 0px 10px !important; color: black; background-color: burlywood; font-family: cursive; font-weight: 500; width: fit-content; font-size: 2rem; margin: 0% !important;}
+.copybtn:hover{background-color: aliceblue; border: 2px solid burlywood;}
+.html-h1{font-family: 'Gill Sans'; color: black; font-weight: 700;}
+
+@media(max-width:768px){
+    .copybtn{font-size: 1rem; padding: 0px 10px;}
+    .html-code{width: 95%; height: 300px;}
+}
+.step ol li{font-family: monospace; color: black ; font-size: 1.2rem;}
+.gitbtn{padding: 5px 50px; background-color: cornflowerblue; font-family:cursive; font-weight: 600; font-size: 2rem; margin: auto; text-align: center;}
+
+footer{background-color:thistle;}
+footer ul{list-style: none;}
+footer ul li{font-size: 1.5rem; color: black; font-weight: 500; }
+footer ul li i{font-size: 2rem;}
+footer h2{font-family:'Permanent Marker', cursive; font-weight: 700; font-size: 2rem;}
+.head-h1{font-family: 'Permanent marker',cursive; font-weight: 800; color: brown; }
+
+.clear { clear: both;}
+        .wrapper {width:60%; margin: 10px auto;  }
+        fieldset { padding: 10px; }
+        .form_grp { margin-bottom: 10px; }
+
+        textarea {border: 3px dotted black;  width: 100%;  height: 100px; padding: 10px; resize: none; outline: none; font-size: 1rem; font-weight: 500; color: black;}
+        button { padding: 5px 20px; font-weight: 600; font-family: 'Gill Sans';; background-color: khaki; color: black; }
+        .viewCmnt {  clear: both;  overflow: hidden;  position: relative;  border-bottom: 1px solid #A6DAFC;  margin: auto;
+        }
+        .viewCmnt p {  width: 100%;  padding: 10px;  font-size: 1.2rem;  line-height: 20px;
+        }
+        .edit,
+        .delete {  position: absolute;  width: 35px;  height: 35px;  display: none;  cursor: pointer;  bottom: 5px;  padding: 2px;
+        }
+        .viewCmnt:hover .edit,
+        .viewCmnt:hover .delete {
+            display: block;
+        }
+        .edit {
+            right:56px;
+            background: url(https://cdn4.iconfinder.com/data/icons/miu/22/editor_pencil_pen_edit_write_-16.png) no-repeat center;
+        }
+        .delete {
+            right: 0px;
+            background: url(https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/cross-24-16.png) no-repeat center;
+            z-index: 2;
+        }
+        @media(max-width:576px){
+        .wrapper {width:80%; margin: 10px auto;  }
+
+        }
