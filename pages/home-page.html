@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="/images/fevicon.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Learn with us</title>
+    <title>CodeHeap</title>
     <!-- bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,16 +20,49 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&display=swap"
         rel="stylesheet">
+    <!-- owl -coursal  -->
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/owl.theme.green.css">
 </head>
 
-<body>
+<body class="home-body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Code With Us</a>
+            <a class="navbar-brand" href="/pages/home-page.html">CodeHeap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="profile">
+                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <i class='bx bxs-group'></i>
+                  </a>
+                  
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Profile</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div>
+                       <a href="#" class="btn">Login</a> <br>
+                       <a href="#" class="btn">Singup</a>
+                      </div>
+                      <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                          Choose launguage
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                          <li><a class="dropdown-item" href="#">Python</a></li>
+                          <li><a class="dropdown-item" href="#">Java</a></li>
+                          <li><a class="dropdown-item" href="#">C and C++</a></li>
+                          <li><a class="dropdown-item" href="#">React</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav  my-2 my-lg-0  ms-auto">
                     <li class="nav-item">
@@ -42,21 +75,34 @@
                         <a class="nav-link" href="#">blog</a>
                     </li>
                     <li class="Contact Us">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link con-btn" href="/pages/contact-us.html">Contact us</a>
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>   
     </nav>
 
 
-
+    <div class="one owl-carousel owl-theme owl-dots-none">
+        <div class="item">
+            <img src="/images/home/project.gif" alt="" srcset="" class="img-fluid">
+        </div>
+        <div class="item">
+            <img src="/images/home/book.gif" alt="" srcset="" class="img-fluid">
+        </div>
+        <div class="item">
+            <img src="/images/home/video.gif" alt="" srcset="" class="img-fluid">
+        </div>
+    </div>
     <section class="web">
         <div class="container">
-            <h1>Some website</h1>
+            <div class="d-flex justify-content-between">
+                <h1 class="my-auto">Project</h1>
+                <h5 class="text-end"> <a href="/pages/project-more.html"> More...</a></h5>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-cont">
-                        <div class="content text-center w-100">
+                    <div class="content text-center w-100">
                         <div class="img">
                             <img src="/images/expose/1.png" alt="" class="img-fluid">
                         </div>
@@ -82,60 +128,154 @@
                         <a href="/pages/organic.html" class="btn">More...</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="web">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h1 class="my-auto">Notes</h1>
+                <h5 class="text-end"> <a href="/pages/notes-more.html"> More...</a></h5>
+            </div>
+            <div class="row">
                 <div class="col-lg-4 col-md-6 col-cont">
                     <div class="content text-center w-100">
                         <div class="img">
-                            <img src="/images/restro/1.png" alt="" class="img-fluid">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71UfppKigaL.jpg" alt="pps-images book" class="img-fluid book-img">
                         </div>
-                        <h2>Restaurants</h2>
-                        <a href="/pages/restro.html" class="btn">More...</a>
+                        <h2>PPS</h2>
+                        <a href="https://mrcet.com/downloads/digital_notes/HS/Programming%20for%20Problem%20Solving.pdf" class="btn">Download</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-cont">
                     <div class="content text-center w-100">
                         <div class="img">
-                            <img src="/images/space drive/1.png" alt="" class="img-fluid">
+                            <img src="https://m.media-amazon.com/images/I/516tWnCK01L.jpg" alt="" class="img-fluid book-img">
                         </div>
-                        <h2>Space drive</h2>
-                        <a href="/pages/space-drive.html" class="btn">More...</a>
+                        <h2>Enginnering Physics</h2>
+                        <a href="http://www.tndte.gov.in/site/wp-content/uploads/2016/08/Engineering-physics.pdf" class="btn">Downlaod</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-cont">
                     <div class="content text-center w-100">
                         <div class="img">
-                            <img src="/images/speed test/2.png" alt="" class="img-fluid">
+                            <img src="https://agrimoon.com/wp-content/uploads/Engineering-Chemistry-cover.png" alt="" class="img-fluid book-img">
                         </div>
-                        <h2>Speed Test</h2>
-                        <a href="/pages/speed-test.html" class="btn">More...</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-cont">
-                    <div class="content text-center w-100">
-                        <div class="img">
-                            <img src="/images/stop watch/1.png" alt="" class="img-fluid">
-                        </div>
-                        <h2>Stop watch</h2>
-                        <a href="/pages/stop-watch.html" class="btn">More...</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-cont">
-                    <div class="content text-center w-100">
-                        <div class="img">
-                            <img src="/images/todo app/1.png" alt="" class="img-fluid">
-                        </div>
-                        <h2>Todo list App</h2>
-                        <a href="/pages/todo-list.html" class="btn">More...</a>
+                        <h2>Engineering-Chemistry</h2>
+                        <a href="http://www.tndte.gov.in/site/wp-content/uploads/2016/08/Engineering-Chemistry.pdf" class="btn">Downlaod</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="web">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h1 class="my-auto">Videos</h1>
+                <h5 class="text-end"> <a href="/pages/video-more.html"> More...</a></h5>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-cont">
+                    <div class="content text-center w-100">
+                        <div class="img">
+                            <img src="https://nareshit.com/wp-content/uploads/2018/08/C-Programming-online-training-nareshit.jpg" alt="pps-images book" class="img-fluid book-img">
+                        </div>
+                        <h2>C - lauguages</h2>
+                        <a href="https://www.youtube.com/watch?v=7Dh73z3icd8&list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR&ab_channel=CodeWithHarry" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-cont">
+                    <div class="content text-center w-100">
+                        <div class="img">
+                            <img src="https://sparc.org.in/wp-content/uploads/2018/12/best-C-programming-course-in-gtb-nagar-sparc-academy.png" alt="" class="img-fluid book-img">
+                        </div>
+                        <h2>C++</h2>
+                        <a href="https://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&ab_channel=CodeWithHarry" class="btn">Watch</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-cont">
+                    <div class="content text-center w-100">
+                        <div class="img">
+                            <img src="https://www.8webcom.com/wp-content/uploads/2021/06/webdevlopment.jpg" alt="" class="img-fluid book-img">
+                        </div>
+                        <h2>Web development</h2>
+                        <a href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&ab_channel=CodeWithHarry" class="btn">Watch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h1>CodeHeap</h1>
+                  <span>We are providing best <br> project with source code <br> best notes and video Lecture.</span>
+              </div>
+              <div class="col-md-4 text-md-center">
+                  <h5>Links</h5>
+                  <ul>
+                    <li> <a href="/pages/home-page.html">Home</a></li>
+                    <li><a href="/pages/contact-us.html">Contact-Us</a></li>
+                    <li><a href="#">About-us</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4 text-md-center">
+                  <h5>follow us</h5>
+                  <ul class="d-flex justify-content-around">
+                    <li><i class='bx bxl-facebook-circle'></i></li>
+                    <li><i class='bx bxl-twitter'></i></li>
+                    <li><i class='bx bxl-linkedin'></i></li>
+                    <li><i class='bx bxl-instagram-alt'></i></li>
+                    <li><i class='bx bxl-whatsapp'></i></li>
+                    <li><i class='bx bxl-github'></i></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+   
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <!-- ui kit js  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.one').owlCarousel({
+                loop: true,
+                autoplay: true,
+                smartSpeed: 3000,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: false,
+                margin: 30,
+                dots: false,
+                nav: false,
+                responsive: {
+
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    1024: {
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    }
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
